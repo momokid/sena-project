@@ -1,6 +1,7 @@
 <?php
 
 
+
 function dd($value)
 {
     echo '<pre>';
@@ -10,3 +11,8 @@ function dd($value)
     die();
 }
 
+function urlIs($value)
+{
+    $url = parse_url($_SERVER['REQUEST_URI'])['path'];
+    return $url === $value;
+}

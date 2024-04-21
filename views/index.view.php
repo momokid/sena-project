@@ -1,7 +1,5 @@
 <?php
 
-require "Core/functions.php";
-
 include "views/partials/head.php";
 
 include "views/partials/aside.php";
@@ -18,8 +16,8 @@ include "views/partials/nav.php";
                 <i class="material-icons opacity-10">weekend</i>
               </div>
               <div class="text-end pt-1">
-                <p class="text-sm mb-0 text-capitalize">Today's Money</p>
-                <h4 class="mb-0">$53k</h4>
+                <p class="text-sm mb-0 text-capitalize">Total Fee</p>
+                <h4 class="mb-0">GHC 53k</h4>
               </div>
             </div>
             <hr class="dark horizontal my-0">
@@ -35,7 +33,7 @@ include "views/partials/nav.php";
                 <i class="material-icons opacity-10">person</i>
               </div>
               <div class="text-end pt-1">
-                <p class="text-sm mb-0 text-capitalize">Today's Users</p>
+                <p class="text-sm mb-0 text-capitalize">General Population</p>
                 <h4 class="mb-0">2,300</h4>
               </div>
             </div>
@@ -52,13 +50,13 @@ include "views/partials/nav.php";
                 <i class="material-icons opacity-10">person</i>
               </div>
               <div class="text-end pt-1">
-                <p class="text-sm mb-0 text-capitalize">New Clients</p>
+                <p class="text-sm mb-0 text-capitalize">New Admission</p>
                 <h4 class="mb-0">3,462</h4>
               </div>
             </div>
             <hr class="dark horizontal my-0">
             <div class="card-footer p-3">
-              <p class="mb-0"><span class="text-danger text-sm font-weight-bolder">-2%</span> than yesterday</p>
+              <p class="mb-0"><span class="text-danger text-sm font-weight-bolder">-2%</span> than last semester</p>
             </div>
           </div>
         </div>
@@ -69,7 +67,7 @@ include "views/partials/nav.php";
                 <i class="material-icons opacity-10">weekend</i>
               </div>
               <div class="text-end pt-1">
-                <p class="text-sm mb-0 text-capitalize">Sales</p>
+                <p class="text-sm mb-0 text-capitalize">Staff Count</p>
                 <h4 class="mb-0">$103,430</h4>
               </div>
             </div>
