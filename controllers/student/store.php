@@ -61,7 +61,7 @@ if (!isset($_SESSION['username'])) {
 }else if($dob > $ajaxDate){
     $response = [
         'status_code'=>301,
-        'message' => "Current date caanot be ",
+        'message' => "Current date cannot be ",
     ];
 } else {
     $response  = [

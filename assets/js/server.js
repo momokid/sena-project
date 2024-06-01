@@ -66,11 +66,52 @@ $(function () {
         },
         function (data) {
 
-          // let response = JSON.parse(data);
+          let response = JSON.parse(data);
 
-          alert(data);
+          alert(response.message);
         }
       );
     }
   });
+
+
+  //
+  $('#btn_set_admission_fee').click(function(){
+    let classroom_id = $("#select_classroom_admission_fee :selected").attr("id");
+    let fee = $('#txt_admission_fee_amount').val();
+
+    $.post('/map_admission_fee',{classroom_id, fee},function(response){
+      let data = JSON.parse(response)
+
+      if(data.status_code==200){
+        alert(data.message);
+        $('#txt_admission_fee_amount').val('');
+        return false;
+      }
+      
+      alert(data.message);
+    })
+  });
+
+  //
+  $('#btn_set_school_fee').click(function(){
+    let classroom_id = $("#select_classroom_school_fee :selected").attr("id");
+    let fee = $('#txt_school_fee_amount').val();
+
+    $.post('/map_aschool_fee',{classroom_id, fee},function(response){
+      let data = JSON.parse(response)
+
+
+      if(data.status_code==200){
+        alert(data.message);
+        $('#txt_school_fee_amount').val('');
+        return false;
+      }
+      
+      alert(data.message);
+    })
+  });
+
+
+  //
 });

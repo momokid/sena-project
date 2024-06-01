@@ -50,12 +50,19 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-white " href="../pages/notifications.html">
+        <a class="nav-link text-white " href="#ui-basic" data-bs-toggle="collapse" aria-expanded="false" aria-controls="form-elements">
           <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
             <i class="material-icons opacity-10">event_note</i>
           </div>
           <span class="nav-link-text ms-1">Academic Calendar</span>
         </a>
+        <!-- <div class="collapse" id="ui-basic">
+          <ul class="nav flex-column sub-menu">
+            <li class="nav-item ms-1"> <a class="nav-link" href="pages/ui-features/buttons.html">Buttons</a></li>
+            <li class="nav-item"> <a class="nav-link" href="pages/ui-features/dropdowns.html">Dropdowns</a></li>
+            <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">Typography</a></li>
+          </ul>
+        </div> -->
       </li>
       <li class="nav-item mt-3">
         <h6 class="ps-4 ms-2 text-uppercase text-xs text-white font-weight-bolder opacity-8">System Report</h6>
@@ -74,13 +81,17 @@
           <span class="nav-link-text ms-1">Sign In</span>
         </a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link text-white " href="/signup">
+      <li class="nav-item mt-3">
+        <h6 class="ps-4 ms-2 text-uppercase text-xs text-white font-weight-bolder opacity-8">admin setup</h6>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link text-white " href="/new-institution">
           <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
           </div>
-          <span class="nav-link-text ms-1">Sign Up</span>
+          <span class="nav-link-text ms-1">New Institution</span>
         </a>
       </li>
+
     </ul>
   </div>
   <div class="sidenav-footer position-absolute w-100 bottom-0 ">

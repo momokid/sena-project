@@ -85,18 +85,18 @@ include "views/partials/nav.php";
                         <form role="form" class="text-start">
 
                             <div class="form-floating mb-3">
-                                <select class="form-select select_classroom" id="select_classroom_admission_fee" aria-label="Floating label select example">
+                                <select class="form-select select_classroom" id="select_classroom_school_fee" aria-label="Floating label select example">
                                 </select>
                                 <label for="floatingSelect">Click to See Options</label>
                             </div>
 
                             <div class="input-group input-group-outline mb-3">
                                 <label class="form-label">School Fee Amount</label>
-                                <input type="number" class="form-control" id="txt_admission_fee_amount">
+                                <input type="number" class="form-control" id="txt_school_fee_amount">
                             </div>
 
                             <div class="text-center">
-                                <button type="button" class="btn bg-gradient-primary w-100 my-4 mb-2">Save</button>
+                                <button type="button" class="btn bg-gradient-primary w-100 my-4 mb-2" id="btn_set_school_fee">Save</button>
                             </div>
 
                         </form>
